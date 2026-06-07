@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>FlowPro Plumbing • Modern Plumbing Solutions</title>
+  <!-- style.css (embedded as separate file reference, but provided inline as requested structure) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="#" class="logo">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="logo-icon">
+            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+            <path d="M2 17l10 5 10-5"/>
+            <path d="M2 12l10 5 10-5"/>
+          </svg>
+          <span class="logo-text">Flow<span class="text-green">Pro</span></span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <ul class="nav-list">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#reviews" class="nav-link">Reviews</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-actions">
+          <a href="tel:+15551234567" class="btn btn-outline-green header-phone">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            (555) 123-4567
+          </a>
+          <button class="btn btn-primary-green" id="openQuoteModal">Get Free Quote</button>
+          <button class="mobile-menu-toggle" aria-label="Toggle menu" id="mobileMenuToggle">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <ul class="mobile-nav-list">
+        <li><a href="#home" class="mobile-link">Home</a></li>
+        <li><a href="#services" class="mobile-link">Services</a></li>
+        <li><a href="#about" class="mobile-link">About</a></li>
+        <li><a href="#reviews" class="mobile-link">Reviews</a></li>
+        <li><a href="#contact" class="mobile-link">Contact</a></li>
+      </ul>
+      <a href="tel:+15551234567" class="btn btn-outline-green mobile-call-btn">Call Now</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="badge green-badge">⚡ 24/7 Emergency Service</span>
+          <h1 class="hero-title">Modern plumbing <span class="text-green">that flows</span> with your life</h1>
+          <p class="hero-description">Clean, reliable, and green-minded plumbing solutions for your home or business. No hidden fees, just honest work.</p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary-green btn-lg">Schedule Service</a>
+            <a href="#services" class="btn btn-outline-white btn-lg">Our Services</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number">15+</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">10k+</span>
+              <span class="stat-label">Happy Customers</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">4.9</span>
+              <span class="stat-label">Google Rating</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-image-wrapper">
+            <div class="hero-image-placeholder">
+              <svg width="100%" height="100%" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="200" cy="200" r="180" fill="white" fill-opacity="0.08"/>
+                <path d="M160 180L200 140L240 180L220 180L220 260L180 260L180 180H160Z" fill="white" fill-opacity="0.9"/>
+                <circle cx="200" cy="120" r="15" fill="#2E7D32" />
+                <path d="M120 260 Q200 300 280 260" stroke="white" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.8"/>
+                <circle cx="120" cy="260" r="10" fill="white" opacity="0.7"/>
+                <circle cx="280" cy="260" r="10" fill="white" opacity="0.7"/>
+              </svg>
+            </div>
+            <div class="floating-card card-left">
+              <div class="mini-avatar green-bg">✓</div>
+              <div><strong>Licensed</strong><br><small> & Insured</small></div>
+            </div>
+            <div class="floating-card card-right">
+              <span class="green-dot"></span> Emergency team ready
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-wave">
+        <svg viewBox="0 0 1440 100" preserveAspectRatio="none"><path fill="white" d="M0,40 C360,100 1080,0 1440,40 L1440,100 L0,100 Z"/></svg>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag green-tag">What we do best</span>
+          <h2 class="section-title">Professional plumbing <span class="text-green">services</span></h2>
+          <p class="section-subtitle">From a leaky faucet to full bathroom remodeling, we handle it with precision.</p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon green-icon-bg">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            </div>
+            <h3>Emergency Repairs</h3>
+            <p>Burst pipes, major leaks, or clogged drains. We arrive within 60 minutes, day or night.</p>
+            <a href="#contact" class="link-green">Get help now →</a>
+          </div>
+          <div class="service-card">
+            <div class="service-icon green-icon-bg">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="2"/><path d="M6 12h.01M18 12h.01"/></svg>
+            </div>
+            <h3>Drain Cleaning</h3>
+            <p>Hydro jetting and camera inspections to keep your drains flowing smoothly.</p>
+            <a href="#contact" class="link-green">Learn more →</a>
+          </div>
+          <div class="service-card">
+            <div class="service-icon green-icon-bg">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 14.66V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h5.34"/><polygon points="18 2 22 6 12 16 8 16 8 12 18 2"/></svg>
+            </div>
+            <h3>Fixture Installation</h3>
+            <p>Faucets, sinks, toilets, water heaters — installed perfectly and guaranteed.</p>
+            <a href="#contact" class="link-green">Book install →</a>
+          </div>
+          <div class="service-card">
+            <div class="service-icon green-icon-bg">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M7 12.5l3 3 7-7"/></svg>
+            </div>
+            <h3>Water Treatment</h3>
+            <p>Whole-house filtration, softeners, and purification for healthier water.</p>
+            <a href="#contact" class="link-green">Explore options →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About / Why Us -->
+    <section id="about" class="about section-padding bg-light-gray">
+      <div class="container about-grid">
+        <div class="about-image">
+          <div class="about-img-placeholder">
+            <svg width="100%" height="100%" viewBox="0 0 500 400" fill="none">
+              <rect width="500" height="400" rx="24" fill="#E8F5E9"/>
+              <circle cx="250" cy="180" r="80" fill="#2E7D32" opacity="0.2"/>
+              <circle cx="250" cy="180" r="50" fill="#2E7D32" opacity="0.4"/>
+              <path d="M220 160 L250 120 L280 160 L265 160 L265 240 L235 240 L235 160 Z" fill="#1B5E20"/>
+              <path d="M180 240 Q250 300 320 240" stroke="#2E7D32" stroke-width="12" stroke-linecap="round"/>
+            </svg>
+          </div>
+        </div>
+        <div class="about-content">
+          <span class="section-tag green-tag">About FlowPro</span>
+          <h2 class="section-title">Green plumbing for a <span class="text-green">sustainable future</span></h2>
+          <p class="about-text">We combine modern technology with eco-friendly practices. Our team is trained in water-saving solutions and energy-efficient systems, so you save money while helping the planet.</p>
+          <ul class="about-list">
+            <li><span class="check-icon green-bg">✓</span> Licensed, bonded & insured professionals</li>
+            <li><span class="check-icon green-bg">✓</span> Upfront pricing – no surprises</li>
+            <li><span class="check-icon green-bg">✓</span> 100% satisfaction guarantee</li>
+            <li><span class="check-icon green-bg">✓</span> Eco-friendly materials & methods</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary-green">Meet Our Team</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews -->
+    <section id="reviews" class="reviews section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag green-tag">Testimonials</span>
+          <h2 class="section-title">Trusted by <span class="text-green">thousands</span></h2>
+        </div>
+        <div class="reviews-grid">
+          <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p>"FlowPro saved us from a flooded basement at 2 AM. Professional, fast, and incredibly clean. Highly recommend!"</p>
+            <div class="reviewer">
+              <div class="avatar green-bg">JD</div>
+              <div><strong>James Donovan</strong><br><small>Homeowner</small></div>
+            </div>
+          </div>
+          <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p>"They installed a tankless water heater and explained everything. Energy bill dropped noticeably. Great green approach."</p>
+            <div class="reviewer">
+              <div class="avatar green-bg">SR</div>
+              <div><strong>Samantha Reed</strong><br><small>Business Owner</small></div>
+            </div>
+          </div>
+          <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p>"Courteous technicians, fair price, and they wore shoe covers! Finally a plumbing company that respects your home."</p>
+            <div class="reviewer">
+              <div class="avatar green-bg">MP</div>
+              <div><strong>Michael Peters</strong><br><small>Repeat Client</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact / CTA -->
+    <section id="contact" class="contact section-padding bg-dark-green">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <h2 class="contact-title">Ready to fix that leak?</h2>
+          <p class="contact-text">Call us now or request a free quote. We're available 24/7 for emergencies.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>(555) 123-4567</span>
+            </div>
+            <div class="contact-item">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>hello@flowproplumbing.com</span>
+            </div>
+            <div class="contact-item">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>1234 Pipe Lane, Green City, GC 56789</span>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="quoteForm">
+          <h3 class="form-title">Get a Free Quote</h3>
+          <div class="form-group">
+            <input type="text" id="name" placeholder="Full Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Email Address" required>
+          </div>
+          <div class="form-group">
+            <input type="tel" id="phone" placeholder="Phone Number">
+          </div>
+          <div class="form-group">
+            <select id="service" required>
+              <option value="" disabled selected>Select Service</option>
+              <option>Emergency Repair</option>
+              <option>Drain Cleaning</option>
+              <option>Fixture Installation</option>
+              <option>Water Treatment</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <textarea id="message" rows="3" placeholder="Tell us about your issue..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary-green btn-full">Send Request</button>
+          <p class="form-disclaimer">We'll respond within 15 minutes during business hours.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo footer-logo">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          <span>Flow<span class="text-green">Pro</span></span>
+        </a>
+        <p class="footer-desc">Modern plumbing with a green heart.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#">Emergency Plumbing</a></li>
+          <li><a href="#">Drain Cleaning</a></li>
+          <li><a href="#">Water Heaters</a></li>
+          <li><a href="#">Sewer Repair</a></li>
+        </ul>
+      </div>
+      <div class="footer-newsletter">
+        <h4>Stay updated</h4>
+        <p>Plumbing tips & green ideas.</p>
+        <form class="newsletter-form" id="newsletterForm">
+          <input type="email" placeholder="Your email" required>
+          <button type="submit" class="btn btn-primary-green">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <p>© 2025 FlowPro Plumbing. All rights reserved. | Privacy Policy</p>
+    </div>
+  </footer>
+
+  <!-- Quote Modal -->
+  <div class="modal-overlay" id="quoteModal">
+    <div class="modal-content">
+      <button class="modal-close" id="closeModal">✕</button>
+      <h3>Request a Free Quote</h3>
+      <form class="modal-form" id="modalQuoteForm">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="tel" placeholder="Phone">
+        <select required>
+          <option value="" disabled selected>Service needed</option>
+          <option>Emergency</option><option>Drain</option><option>Installation</option><option>Other</option>
+        </select>
+        <button type="submit" class="btn btn-primary-green btn-full">Get Quote</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
